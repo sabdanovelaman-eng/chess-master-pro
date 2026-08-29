@@ -12,5 +12,12 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
+  },
+  build: {
+    target: 'esnext',
+    minify: 'terser',
+    sourcemap: false,
+    outDir: 'dist',
+    emptyOutDir: true
   }
 })
