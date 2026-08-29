@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #333;
+  min-height: 100vh;
+}
+
+.chess-board {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(45deg, #f0d9b5 0%, #b58863 100%);
+  border: 3px solid #8b7355;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
