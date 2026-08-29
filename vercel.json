@@ -1,7 +1,0 @@
-{
-  "name": "chess-master-pro",
-  "version": "1.0.0",
-  "description": "Chess analysis platform with Stockfish and AI trainer",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
-}
